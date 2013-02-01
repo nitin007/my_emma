@@ -9,7 +9,7 @@ begin
     gem.email = "dev@hashrocket.com"
     gem.homepage = "http://github.com/hashrocket/my_emma"
     gem.authors = ["Jim Remsik", "Sandro Turriate"]
-    gem.add_dependency('httparty', '0.4.5')
+    gem.add_dependency('httparty', '0.9.0')
     gem.add_development_dependency('rspec', '1.2.9')
   end
 Jeweler::GemcutterTasks.new
